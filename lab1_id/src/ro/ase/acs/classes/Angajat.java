@@ -56,8 +56,5 @@ public class Angajat extends Aplicant
         return s;
     }
 
-    @Override
-    public void status() {
-        super.status();
-    }
+
 }

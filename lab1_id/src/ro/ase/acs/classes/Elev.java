@@ -49,12 +49,9 @@ public class Elev extends Aplicant{
 
     public int finantare() {
         int s=30;
-        System.out.println("Angajatul "+getNume()+" "+getPrenume()+" primeste "+s+" Euro/zi in proiect.");
+        System.out.println("Elevul "+getNume()+" "+getPrenume()+" primeste "+s+" Euro/zi in proiect.");
         return s;
     }
 
-    @Override
-    public void status() {
-        super.status();
-    }
+
 }
