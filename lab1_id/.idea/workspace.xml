@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2138f9b0-6d4f-4947-a51a-a2d33728a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Angajat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Aplicant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Elev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Rusu_Oana_ActivitateCTS2025.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1_id.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1_id.iml" afterDir="false" />
+    <list default="true" id="2138f9b0-6d4f-4947-a51a-a2d33728a5cf" name="Changes" comment="creare clase aplicant si angajat si testare in main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/classes/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Angajat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/classes/Elev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/classes/Elev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/ase/acs/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/ase/acs/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +64,27 @@
       <option name="presentableId" value="Default" />
       <updated>1741775136366</updated>
     </task>
+    <task id="LOCAL-00001" summary="creare clase aplicant si angajat si testare in main">
+      <option name="closed" value="true" />
+      <created>1741779778602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741779778602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creare clase aplicant si angajat si testare in main">
+      <option name="closed" value="true" />
+      <created>1741779793374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741779793374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creare clase aplicant si angajat si testare in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="creare clase aplicant si angajat si testare in main" />
   </component>
 </project>

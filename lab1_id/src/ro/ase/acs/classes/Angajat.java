@@ -55,4 +55,9 @@ public class Angajat extends Aplicant
         System.out.println("Angajatul "+ getNume()+ " "+getPrenume()+ " primeste " +s+ " Euro/zi in proiect");
         return s;
     }
+
+    @Override
+    public void status() {
+        super.status();
+    }
 }
