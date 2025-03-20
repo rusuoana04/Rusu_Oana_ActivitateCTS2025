@@ -7,7 +7,7 @@ public class Jucator implements IJucator{
     private String tip;
     private List<String> listaAntrenamente;
 
-    private static List<String> listaMedicamenteInterzise = new ArrayList<>(List.of("Substanta A", "Substanta B", "Substanta C"));
+    private  List<String> listaMedicamenteInterzise = new ArrayList<>();
 
 
 
@@ -17,11 +17,14 @@ public class Jucator implements IJucator{
         this.numeJucator = numeJucator;
         this.tip = tip;
         this.listaAntrenamente = new ArrayList<>(listaAntrenamente);
+        this.listaMedicamenteInterzise= new ArrayList<>(listaMedicamenteInterzise);
     }
 
     @Override
     public IJucator clone() {
-        return new Jucator(this.numeJucator, this.tip, this.listaAntrenamente);
+       Jucator copy= new Jucator(this.numeJucator, this.tip, this.listaAntrenamente);
+       copy.listaMedicamenteInterzise= new ArrayList<>(this.listaMedicamenteInterzise);
+       return  copy;
 
     }
 
@@ -30,7 +33,8 @@ public class Jucator implements IJucator{
         return "Jucator{" +
                 "numeJucator='" + numeJucator + '\'' +
                 ", tip='" + tip + '\'' +
-                ", listaAntrenamente=" + listaAntrenamente ;
+                ", listaAntrenamente=" + listaAntrenamente + '\'' +
+                ", listaMedicamenteInterzise= [ " +listaMedicamenteInterzise+ " ]";
     }
 
 
@@ -45,7 +49,7 @@ public class Jucator implements IJucator{
     }
 
 
-    public static void adaugaMedicamentInterzis(String medicament) {
+    public  void adaugaMedicamentInterzis(String medicament) {
         listaMedicamenteInterzise.add(medicament);
     }
 
@@ -58,6 +62,14 @@ public class Jucator implements IJucator{
     public void verificaDoping()
     {
         System.out.println("Jucatorul: " + numeJucator+ " a fost testat de doping");
+        if(!listaMedicamenteInterzise.isEmpty())
+        {
+            System.out.println("Jucatorul e pozitiv");
+        }
+        else
+        {
+            System.out.println("Jucatorul e negativ");
+        }
 
     }
 
